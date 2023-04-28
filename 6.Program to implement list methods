@@ -1,0 +1,25 @@
+my_list = []  # create an empty list
+
+# Add method - adds an element to a specific position in the list
+def add_element(index, value):
+    my_list.insert(index, value)
+
+# Append method - adds an element to the end of the list
+def append_element(value):
+    my_list.append(value)
+
+# Extend method - adds multiple elements to the end of the list
+def extend_list(values):
+    my_list.extend(values)
+
+# Delete method - removes an element from the list
+def delete_element(index):
+    del my_list[index]
+
+# Example usage
+add_element(0, 'apple')
+append_element('banana')
+extend_list(['cherry', 'date'])
+delete_element(1)
+
+print(my_list)
