@@ -1,0 +1,27 @@
+# Define two sets
+set_A = {1, 2, 3, 4}
+set_B = {3, 4, 5, 6}
+
+# Union of sets A and B
+union_set = set_A.union(set_B)
+print("Union of sets A and B:", union_set)
+
+# Intersection of sets A and B
+intersection_set = set_A.intersection(set_B)
+print("Intersection of sets A and B:", intersection_set)
+
+# Difference between sets A and B
+difference_set = set_A.difference(set_B)
+print("Difference between sets A and B:", difference_set)
+
+# Symmetric difference between sets A and B
+symmetric_difference_set = set_A.symmetric_difference(set_B)
+print("Symmetric difference between sets A and B:", symmetric_difference_set)
+
+# Subset check
+is_subset = set_A.issubset(union_set)
+print("Set A is a subset of the union of sets A and B:", is_subset)
+
+# Superset check
+is_superset = union_set.issuperset(set_A)
+print("The union of sets A and B is a superset of set A:", is_superset)
