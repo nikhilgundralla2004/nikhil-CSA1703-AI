@@ -1,0 +1,5 @@
+def remove_punctuations(input_string):
+    punctuations = string.punctuation
+translator = str.maketrans('', '', punctuations)
+output_string = input_string.translate(translator)
+   return output_string
