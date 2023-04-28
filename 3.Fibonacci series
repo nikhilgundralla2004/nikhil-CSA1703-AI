@@ -1,0 +1,13 @@
+def fibonacci(n):
+    # Define the starting terms
+    a, b = 0, 1
+
+    for i in range(n):
+        yield a  # Yield the current term
+        a, b = b, a + b  # Calculate the next term
+
+num_terms = int(input("Enter the number of terms to generate: "))
+
+print("Fibonacci sequence:")
+for term in fibonacci(num_terms):
+    print(term)
