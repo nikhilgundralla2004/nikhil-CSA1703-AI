@@ -1,0 +1,27 @@
+# Nested List
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# Length
+print(len(nested_list))  # prints 3
+
+# Concatenation
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+concatenated_list = list1 + list2
+print(concatenated_list)  # prints [1, 2, 3, 4, 5, 6]
+
+# Membership
+my_list = ['apple', 'banana', 'cherry']
+print('banana' in my_list)  # prints True
+
+# Iteration
+for item in my_list:
+    print(item)
+
+# Indexing
+my_list = ['apple', 'banana', 'cherry']
+print(my_list[1])  # prints 'banana'
+
+# Slicing
+my_list = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+print(my_list[1:4])  # prints ['banana', 'cherry', 'date']
